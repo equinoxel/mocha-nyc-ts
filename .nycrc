@@ -1,0 +1,22 @@
+{
+  "include": [
+    "src/*.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "playground",
+    "node_modules",
+    "**/*.d.ts"
+  ],
+  "extension": [
+    ".ts"
+  ],
+  "require": [
+    "ts-node/register"
+  ],
+  "reporter": [
+    "text"
+  ],
+  "report-dir": ".tmp/nyc/coverage",
+  "all": true
+}
